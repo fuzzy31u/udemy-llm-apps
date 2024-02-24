@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "udemy-llm-apps"
+version = "0.1.0"
+description = ""
+authors = ["Yu Kamiya <fuzzy31u@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+openai = "0.27.8"
+langchain = "0.0.266"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
